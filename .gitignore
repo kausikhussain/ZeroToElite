@@ -1,0 +1,13 @@
+# Compiled class files
+*.class
+
+# IntelliJ IDEA project files
+.idea/
+*.iml
+
+# PDF study files (to avoid GitHub file size limits and keep repo clean)
+*.pdf
+
+# Operating system/temporary files
+Thumbs.db
+Desktop.ini

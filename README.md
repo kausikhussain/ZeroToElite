@@ -15,7 +15,8 @@ graph TD
     C --> D[04_Multithreading]
     D --> E[05_Collections_Framework]
     E --> F[06_Java_8_Features]
-    F --> G[07_Competitive_Programming]
+    F --> H[08_DSA_Implementations]
+    H --> G[07_Competitive_Programming]
 ```
 
 ### 📁 Directory Breakdown
@@ -56,6 +57,16 @@ graph TD
 *Focus: Interview & Competitive Coding*
 * [TwoSum.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/TwoSum.java): Optimal $O(n)$ hash-based solution for the Two-Sum problem.
 * [ArrayProblems.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/ArrayProblems.java): In-place array reversal, linear max-finding, and finding the maximum product of a triplet in $O(n)$ time.
+
+#### 📂 [08_DSA_Implementations](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/) *(New)*
+*Focus: Custom Data Structures and Algorithms Implementations*
+* [SearchingAndSorting.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/SearchingAndSorting.java): Implements Linear Search, Binary Search, Bubble Sort, and Selection Sort.
+* [SinglyLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/SinglyLinkedList.java): Covers singly linked list nodes, pointer traversal, insertions, and deletions.
+* [DoublyLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/DoublyLinkedList.java): Covers doubly linked list nodes, pointer traversal in both directions, and insertions.
+* [CircularLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/CircularLinkedList.java): Implements a circular linked list pointing back to head.
+* [Queues.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Queues.java): Custom Array-based Simple Queue and Circular Queue implementations.
+* [MatrixOperations.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/MatrixOperations.java): Implements 2D array addition and multiplication.
+* [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/BasicAlgorithms.java): Implements Armstrong check, palindrome check, reversing digits, duplicate elements detection, and character occurrences.
 
 ---
 

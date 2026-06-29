@@ -26,6 +26,7 @@ graph TD
 * [VariablesAndOperators.java](file:///c:/Users/kausi/Desktop/java/01_Basics/VariablesAndOperators.java): Explains primitive data types, variable updates, basic arithmetic, and increment/decrement operators.
 * [ControlFlowAndScanner.java](file:///c:/Users/kausi/Desktop/java/01_Basics/ControlFlowAndScanner.java): Demonstrates console inputs (`Scanner`), condition checks (`if-else`), loops (`for`, `while`), and classic algorithms (Factorial, Fibonacci, tables).
 * [StringBasics.java](file:///c:/Users/kausi/Desktop/java/01_Basics/StringBasics.java): Analyzes string references, String Pool vs Heap, common methods, and mutable `StringBuilder` / `StringBuffer`.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/01_Basics/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/01_Basics/BasicsPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/01_Basics/solutions/BasicsSolutions.java)
 
 #### 📂 [02_OOPs](file:///c:/Users/kausi/Desktop/java/02_OOPs/)
 *Focus: Object-Oriented Principles*
@@ -33,30 +34,36 @@ graph TD
 * [InheritanceTypes.java](file:///c:/Users/kausi/Desktop/java/02_OOPs/InheritanceTypes.java): Details single, multilevel, hierarchical, and multiple inheritance (via interfaces), explaining the Diamond Problem.
 * [PolymorphismAndDispatch.java](file:///c:/Users/kausi/Desktop/java/02_OOPs/PolymorphismAndDispatch.java): Explores compile-time polymorphism (overloading), runtime polymorphism (overriding), dynamic method dispatch, and a clean polymorphic design pattern.
 * [EncapsulationAndAbstraction.java](file:///c:/Users/kausi/Desktop/java/02_OOPs/EncapsulationAndAbstraction.java): Demonstrates getter/setter validation, abstract classes, and interfaces.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/02_OOPs/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/02_OOPs/OOPsPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/02_OOPs/solutions/OOPsSolutions.java)
 
 #### 📂 [03_Exception_Handling](file:///c:/Users/kausi/Desktop/java/03_Exception_Handling/)
 *Focus: Robust Error & Resource Management*
 * [ExceptionHandlingDemo.java](file:///c:/Users/kausi/Desktop/java/03_Exception_Handling/ExceptionHandlingDemo.java): Explores checked vs unchecked exceptions, try-catch-finally blocks, throwing exceptions, and writing custom exceptions.
 * [TryWithResourcesDemo.java](file:///c:/Users/kausi/Desktop/java/03_Exception_Handling/TryWithResourcesDemo.java): Highlights the modern try-with-resources statement (`AutoCloseable` interface) for auto-closing files/database streams.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/03_Exception_Handling/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/03_Exception_Handling/ExceptionPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/03_Exception_Handling/solutions/ExceptionSolutions.java)
 
 #### 📂 [04_Multithreading](file:///c:/Users/kausi/Desktop/java/04_Multithreading/)
 *Focus: Concurrency & Synchronization*
 * [ThreadSynchronization.java](file:///c:/Users/kausi/Desktop/java/04_Multithreading/ThreadSynchronization.java): Illustrates thread creation (`Runnable`), race conditions, and locking critical sections using `synchronized` methods.
 * [WaitNotifyDemo.java](file:///c:/Users/kausi/Desktop/java/04_Multithreading/WaitNotifyDemo.java): Demonstrates inter-thread communication using thread signals (`wait()` and `notify()`).
 * [ReadWriteLockDemo.java](file:///c:/Users/kausi/Desktop/java/04_Multithreading/ReadWriteLockDemo.java): Demonstrates advanced lock APIs (`ReentrantReadWriteLock`) to optimize read-heavy systems.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/04_Multithreading/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/04_Multithreading/MultithreadingPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/04_Multithreading/solutions/MultithreadingSolutions.java)
 
 #### 📂 [05_Collections_Framework](file:///c:/Users/kausi/Desktop/java/05_Collections_Framework/) *(New)*
 *Focus: Data Structures in Java*
 * [CollectionsDemo.java](file:///c:/Users/kausi/Desktop/java/05_Collections_Framework/CollectionsDemo.java): Comprehensive guide on lists (`ArrayList`, `LinkedList`), sets (`HashSet`, `TreeSet`), maps (`HashMap`, `TreeMap`), and queues (`PriorityQueue`), including key operations and complexity.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/05_Collections_Framework/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/05_Collections_Framework/CollectionsPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/05_Collections_Framework/solutions/CollectionsSolutions.java)
 
 #### 📂 [06_Java_8_Features](file:///c:/Users/kausi/Desktop/java/06_Java_8_Features/) *(New)*
 *Focus: Modern Java Programming*
 * [LambdaAndStreams.java](file:///c:/Users/kausi/Desktop/java/06_Java_8_Features/LambdaAndStreams.java): Teaches Lambda expressions, functional interfaces, and stream pipelining (filter, map, sorted, collect, grouping).
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/06_Java_8_Features/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/06_Java_8_Features/Java8Practice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/06_Java_8_Features/solutions/Java8Solutions.java)
 
 #### 📂 [07_Competitive_Programming](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/)
 *Focus: Interview & Competitive Coding*
 * [TwoSum.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/TwoSum.java): Optimal $O(n)$ hash-based solution for the Two-Sum problem.
 * [ArrayProblems.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/ArrayProblems.java): In-place array reversal, linear max-finding, and finding the maximum product of a triplet in $O(n)$ time.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/CompetitivePractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/solutions/CompetitiveSolutions.java)
 
 #### 📂 [08_DSA_Implementations](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/) *(New)*
 *Focus: Custom Data Structures and Algorithms Implementations*

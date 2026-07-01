@@ -74,6 +74,7 @@ graph TD
 * [Queues.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Queues.java): Custom Array-based Simple Queue and Circular Queue implementations.
 * [MatrixOperations.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/MatrixOperations.java): Implements 2D array addition and multiplication.
 * [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/BasicAlgorithms.java): Implements Armstrong check, palindrome check, reversing digits, duplicate elements detection, and character occurrences.
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/DSAPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/solutions/DSASolutions.java)
 
 ---
 

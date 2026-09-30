@@ -48,6 +48,30 @@ public class CompetitivePractice {
         } else {
             System.out.println("Task 3: FAILED");
         }
+
+        // Test Task 4: Maximum Subarray Sum (Kadane's Algorithm)
+        System.out.println("\nTesting Task 4 (Maximum Subarray Sum):");
+        int[] subArr1 = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        int[] subArr2 = {-5, -3, -8, -1, -4};
+        int max1 = maxSubArray(subArr1); // Expected: 6
+        int max2 = maxSubArray(subArr2); // Expected: -1
+        if (max1 == 6 && max2 == -1) {
+            System.out.println("Task 4: PASSED");
+        } else {
+            System.out.println("Task 4: FAILED (Expected 6 and -1, got " + max1 + " and " + max2 + ")");
+        }
+
+        // Test Task 5: Trapping Rain Water
+        System.out.println("\nTesting Task 5 (Trapping Rain Water):");
+        int[] elevation1 = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        int[] elevation2 = {4, 2, 0, 3, 2, 5};
+        int water1 = trapRainWater(elevation1); // Expected: 6
+        int water2 = trapRainWater(elevation2); // Expected: 9
+        if (water1 == 6 && water2 == 9) {
+            System.out.println("Task 5: PASSED");
+        } else {
+            System.out.println("Task 5: FAILED (Expected 6 and 9, got " + water1 + " and " + water2 + ")");
+        }
     }
 
     /**
@@ -72,5 +96,21 @@ public class CompetitivePractice {
     public static int[] mergeKSortedArrays(int[][] arrays) {
         // TODO: Implement using a PriorityQueue (min-heap) holding element nodes.
         return null;
+    }
+
+    /**
+     * Task 4: Find maximum contiguous subarray sum in O(n) time and O(1) space.
+     */
+    public static int maxSubArray(int[] nums) {
+        // TODO: Implement Kadane's Algorithm.
+        return 0;
+    }
+
+    /**
+     * Task 5: Compute trapped rain water in O(n) time and O(1) space.
+     */
+    public static int trapRainWater(int[] height) {
+        // TODO: Implement Two-Pointer algorithm.
+        return 0;
     }
 }

@@ -63,6 +63,8 @@ graph TD
 *Focus: Interview & Competitive Coding*
 * [TwoSum.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/TwoSum.java): Optimal $O(n)$ hash-based solution for the Two-Sum problem.
 * [ArrayProblems.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/ArrayProblems.java): In-place array reversal, linear max-finding, and finding the maximum product of a triplet in $O(n)$ time.
+* [KadanesAlgorithm.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/KadanesAlgorithm.java): Maximum Subarray Sum via Kadane's algorithm, index tracking, and circular subarray variations in $O(n)$ time.
+* [TrappingRainWater.java](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/TrappingRainWater.java): Trapping Rain Water problem implemented via Two-Pointer ($O(1)$ space), Dynamic Programming, and Monotonic Stack.
 * 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/CompetitivePractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/07_Competitive_Programming/solutions/CompetitiveSolutions.java)
 
 #### 📂 [08_DSA_Implementations](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/) *(New)*
@@ -72,6 +74,8 @@ graph TD
 * [DoublyLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/DoublyLinkedList.java): Covers doubly linked list nodes, pointer traversal in both directions, and insertions.
 * [CircularLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/CircularLinkedList.java): Implements a circular linked list pointing back to head.
 * [Queues.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Queues.java): Custom Array-based Simple Queue and Circular Queue implementations.
+* [BinarySearchTree.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/BinarySearchTree.java): Implements Binary Search Tree insertion, in-order traversal, searching, and BST validation.
+* [ValidParentheses.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/ValidParentheses.java): Implements stack-based bracket validation, minimum additions, and longest valid parentheses substring.
 * [MatrixOperations.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/MatrixOperations.java): Implements 2D array addition and multiplication.
 * [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/BasicAlgorithms.java): Implements Armstrong check, palindrome check, reversing digits, duplicate elements detection, and character occurrences.
 * 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/DSAPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/solutions/DSASolutions.java)

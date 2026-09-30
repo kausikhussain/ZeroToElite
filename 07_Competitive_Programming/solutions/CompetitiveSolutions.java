@@ -26,6 +26,14 @@ public class CompetitiveSolutions {
         };
         int[] merged = mergeKSortedArrays(arrays);
         System.out.println("Merged K Sorted Arrays: " + Arrays.toString(merged));
+
+        // Task 4
+        int[] subArr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
+        System.out.println("Maximum Subarray Sum: " + maxSubArray(subArr)); // 6
+
+        // Task 5
+        int[] elevations = {0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1};
+        System.out.println("Trapped Rain Water: " + trapRainWater(elevations)); // 6
     }
 
     /**
@@ -119,5 +127,56 @@ public class CompetitiveSolutions {
         }
 
         return result;
+    }
+
+    /**
+     * Task 4: Kadane's Algorithm for Maximum Subarray Sum.
+     * Time Complexity: O(N), Space Complexity: O(1)
+     */
+    public static int maxSubArray(int[] nums) {
+        if (nums == null || nums.length == 0) return 0;
+        int currentSum = nums[0];
+        int maxSum = nums[0];
+
+        for (int i = 1; i < nums.length; i++) {
+            currentSum = Math.max(nums[i], currentSum + nums[i]);
+            maxSum = Math.max(maxSum, currentSum);
+        }
+
+        return maxSum;
+    }
+
+    /**
+     * Task 5: Trapping Rain Water using Two-Pointer Approach.
+     * Time Complexity: O(N), Space Complexity: O(1)
+     */
+    public static int trapRainWater(int[] height) {
+        if (height == null || height.length < 3) return 0;
+
+        int left = 0;
+        int right = height.length - 1;
+        int leftMax = 0;
+        int rightMax = 0;
+        int totalWater = 0;
+
+        while (left < right) {
+            if (height[left] <= height[right]) {
+                if (height[left] >= leftMax) {
+                    leftMax = height[left];
+                } else {
+                    totalWater += leftMax - height[left];
+                }
+                left++;
+            } else {
+                if (height[right] >= rightMax) {
+                    rightMax = height[right];
+                } else {
+                    totalWater += rightMax - height[right];
+                }
+                right--;
+            }
+        }
+
+        return totalWater;
     }
 }

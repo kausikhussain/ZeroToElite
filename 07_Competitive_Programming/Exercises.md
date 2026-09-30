@@ -25,6 +25,23 @@ This folder contains competitive programming and advanced data structures exerci
 - **Goal**: Use a **Min-Heap (PriorityQueue)** to track the smallest element of each array to perform the merge efficiently.
 - **Constraint**: $O(N \log K)$ time complexity, where $N$ is the total number of elements across all arrays, and $K$ is the number of arrays.
 
+### 4. Maximum Subarray Sum / Kadane's Algorithm (Medium)
+- **Problem**: Write a method `maxSubArray(int[] nums)` that finds the contiguous subarray (containing at least one number) which has the largest sum and returns its sum.
+- **Examples**:
+  - `nums = [-2, 1, -3, 4, -1, 2, 1, -5, 4]` -> Output: `6` (subarray `[4, -1, 2, 1]`).
+  - `nums = [-1]` -> Output: `-1`.
+  - `nums = [5, 4, -1, 7, 8]` -> Output: `23`.
+- **Goal**: Implement using **Kadane's Algorithm** (dynamic programming / running sum).
+- **Constraint**: $O(n)$ time complexity, $O(1)$ auxiliary space.
+
+### 5. Trapping Rain Water (Hard)
+- **Problem**: Write a method `trapRainWater(int[] height)` that computes how much water an elevation map can trap after raining.
+- **Examples**:
+  - `height = [0, 1, 0, 2, 1, 0, 1, 3, 2, 1, 2, 1]` -> Output: `6`.
+  - `height = [4, 2, 0, 3, 2, 5]` -> Output: `9`.
+- **Goal**: Implement using the **Two-Pointer** technique tracking left/right boundaries.
+- **Constraint**: $O(n)$ time complexity, $O(1)$ auxiliary space.
+
 ---
 
 ## 🏃 How to Practice

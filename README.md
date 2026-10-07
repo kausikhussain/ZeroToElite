@@ -4,6 +4,9 @@ Welcome to **ZeroToElite**! This repository is a structured, step-by-step learni
 
 The curriculum starts with the absolute fundamentals of syntax and proceeds logically through Object-Oriented Programming (OOP) design, exception safety, concurrency, collections, functional programming, and competitive programming patterns.
 
+> 📊 **Master Progress Tracker**: [PROGRESS_TRACKER.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/PROGRESS_TRACKER.md)  
+> 🧭 **Engineering Roadmap**: [ROADMAP.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/ROADMAP.md)
+
 ---
 
 ## 🗺️ Learning Roadmap
@@ -69,16 +72,23 @@ graph TD
 
 #### 📂 [08_DSA_Implementations](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/) *(New)*
 *Focus: Custom Data Structures and Algorithms Implementations*
-* [SearchingAndSorting.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/SearchingAndSorting.java): Implements Linear Search, Binary Search, Bubble Sort, and Selection Sort.
-* [SinglyLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/SinglyLinkedList.java): Covers singly linked list nodes, pointer traversal, insertions, and deletions.
-* [DoublyLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/DoublyLinkedList.java): Covers doubly linked list nodes, pointer traversal in both directions, and insertions.
-* [CircularLinkedList.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/CircularLinkedList.java): Implements a circular linked list pointing back to head.
-* [Queues.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Queues.java): Custom Array-based Simple Queue and Circular Queue implementations.
-* [BinarySearchTree.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/BinarySearchTree.java): Implements Binary Search Tree insertion, in-order traversal, searching, and BST validation.
-* [ValidParentheses.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/ValidParentheses.java): Implements stack-based bracket validation, minimum additions, and longest valid parentheses substring.
-* [MatrixOperations.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/MatrixOperations.java): Implements 2D array addition and multiplication.
-* [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/BasicAlgorithms.java): Implements Armstrong check, palindrome check, reversing digits, duplicate elements detection, and character occurrences.
-* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/DSAPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/java/08_DSA_Implementations/solutions/DSASolutions.java)
+* [MergeSort.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/MergeSort.java): Top-down divide-and-conquer stable sorting with auxiliary buffer reuse and O(N log N) guarantee.
+* [QuickSort.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/QuickSort.java): In-place divide-and-conquer sorting with randomized pivot, Lomuto and Hoare partitioning.
+* [DynamicArray.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/DynamicArray.java): Generic resizing array with geometric doubling, amortized O(1) appends, and capacity shrinking.
+* [MinStack.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/MinStack.java): Constant time O(1) getMin stack using dual parallel stack and embedded linked node designs.
+* [BinaryTreeTraversals.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BinaryTreeTraversals.java): BFS Level-Order (Queue), DFS Pre/In/Post-Order (both Recursive & Iterative Stack), and tree height.
+* [BinaryHeap.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BinaryHeap.java): Complete binary tree array representation, MinHeap, O(N) buildHeap, and in-place HeapSort.
+* [SearchingAndSorting.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/SearchingAndSorting.java): Implements Linear Search, Binary Search, Bubble Sort, and Selection Sort.
+* [SinglyLinkedList.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/SinglyLinkedList.java): Covers singly linked list nodes, pointer traversal, insertions, and deletions.
+* [DoublyLinkedList.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/DoublyLinkedList.java): Covers doubly linked list nodes, pointer traversal in both directions, and insertions.
+* [CircularLinkedList.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/CircularLinkedList.java): Implements a circular linked list pointing back to head.
+* [Queues.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/Queues.java): Custom Array-based Simple Queue and Circular Queue implementations.
+* [BinarySearchTree.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BinarySearchTree.java): Implements Binary Search Tree insertion, in-order traversal, searching, and BST validation.
+* [ValidParentheses.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/ValidParentheses.java): Implements stack-based bracket validation, minimum additions, and longest valid parentheses substring.
+* [MatrixOperations.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/MatrixOperations.java): Implements 2D array addition and multiplication.
+* [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BasicAlgorithms.java): Implements Armstrong check, palindrome check, reversing digits, duplicate elements detection, and character occurrences.
+* 📖 **Topic Documentation**: [08_DSA_Implementations/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/README.md)
+* 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/DSAPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/solutions/DSASolutions.java)
 
 ---
 

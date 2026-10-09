@@ -108,6 +108,18 @@ graph TD
 * [MinimumSizeSubarraySum.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/MinimumSizeSubarraySum.java): Dynamic contracting window on positive integers in amortized $O(N)$ time.
 * 📖 **Topic Guide**: [02_Sliding_Window/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/README.md)
 
+##### 📁 [03_Binary_Search_Invariants](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/03_Binary_Search_Invariants/)
+* [BinarySearchBounds.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/03_Binary_Search_Invariants/BinarySearchBounds.java): First & Last Position / Lower & Upper Bound in $O(\log N)$ time.
+* [SearchRotatedSortedArray.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/03_Binary_Search_Invariants/SearchRotatedSortedArray.java): Rotated sorted array search with sorted-half invariants in $O(\log N)$ time.
+* [KokoEatingBananas.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/03_Binary_Search_Invariants/KokoEatingBananas.java): Binary search on monotonic answer space with feasibility predicate in $O(N \log M)$ time.
+* 📖 **Topic Guide**: [03_Binary_Search_Invariants/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/03_Binary_Search_Invariants/README.md)
+
+##### 📁 [04_Monotonic_Stack](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/)
+* [NextGreaterElement.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/NextGreaterElement.java): Next Greater Element I & II with $2N$ circular array simulation in $O(N)$ time.
+* [DailyTemperatures.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/DailyTemperatures.java): Wait days tracking using monotonic decreasing index stack in $O(N)$ time.
+* [LargestRectangleInHistogram.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/LargestRectangleInHistogram.java): Monotonic increasing stack calculating bottleneck bar areas in $O(N)$ time.
+* 📖 **Topic Guide**: [04_Monotonic_Stack/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/README.md)
+
 ---
 
 ## 🛠️ How to Compile and Run

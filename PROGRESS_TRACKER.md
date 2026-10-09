@@ -16,7 +16,7 @@
 | **06** | **Java 8+ Modern Features** | `COMPLETED` | 3 | 2 | 1 | Lambdas, Functional Interfaces, Streams API, Collectors |
 | **07** | **Competitive Programming** | `IN PROGRESS` | 3 | 4 | 2 | TwoSum, Kadane's, Trapping Rain Water, 3Sum, Container With Most Water |
 | **08** | **DSA Implementations (Foundations)** | `COMPLETED` | 8 | 12 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Hash Table, Fast-Slow |
-| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 5 | 0 | Two Pointers (Opposite direction, 3Sum, Container), Sliding Window (Fixed, Variable, Min Size) |
+| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 10 | 1 | Two Pointers, Sliding Window, Binary Search Bounds, Rotated Search, Monotonic Stack, Histogram |
 
 ---
 
@@ -94,6 +94,16 @@
 - [x] Longest Substring Without Repeating Characters ($O(N)$ time, $O(1)$ space) (`LongestSubstringWithoutRepeating.java`)
 - [x] Minimum Size Subarray Sum ($O(N)$ time, $O(1)$ space) (`MinimumSizeSubarraySum.java`)
 
+#### 03_Binary_Search_Invariants
+- [x] First & Last Position of Element in Sorted Array / Lower & Upper Bound ($O(\log N)$) (`BinarySearchBounds.java`)
+- [x] Search in Rotated Sorted Array ($O(\log N)$) (`SearchRotatedSortedArray.java`)
+- [x] Koko Eating Bananas - Binary Search on Answer ($O(N \log M)$) (`KokoEatingBananas.java`)
+
+#### 04_Monotonic_Stack
+- [x] Next Greater Element I & II - Circular Array Simulation ($O(N)$) (`NextGreaterElement.java`)
+- [x] Daily Temperatures - Wait Days Index Tracking ($O(N)$) (`DailyTemperatures.java`)
+- [x] Largest Rectangle in Histogram ($O(N)$) (`LargestRectangleInHistogram.java`)
+
 ---
 
-*Last Updated: 2026-10-09 | Maintained by ZeroToElite Mentorship*
+*Last Updated: 2026-10-10 | Maintained by ZeroToElite Mentorship*

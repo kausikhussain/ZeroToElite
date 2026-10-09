@@ -21,7 +21,7 @@ graph TD
 
 ---
 
-## 📍 Stage 1: Completed Milestones
+## 📍 Stage 1: Completed Core Java Milestones
 
 ### 1. Java Syntax & Core Logic (`01_Basics`)
 - Primitive types, memory size, arithmetic overflow behavior
@@ -59,9 +59,9 @@ graph TD
 
 ---
 
-## 🎯 Stage 2: Current Focus — Completing DSA Foundations (`08_DSA_Implementations`)
+## 🏗️ Stage 2: Completed DSA Foundations (`08_DSA_Implementations`)
 
-Before moving into heavy pattern solving, the foundational data structures and $O(N \log N)$ divide-and-conquer algorithms must be mastered and implemented from scratch:
+All canonical computer science data structures and sorting paradigms implemented from scratch:
 
 - [x] Singly, Doubly, and Circular Linked Lists
 - [x] Array-based Simple Queue & Circular Queue with modulo indexing
@@ -73,22 +73,24 @@ Before moving into heavy pattern solving, the foundational data structures and $
 - [x] Constant Time **MinStack** ($O(1)$ `getMin()`)
 - [x] Complete **Binary Tree Traversals** (BFS Level-Order via Queue, DFS Pre/In/Post Order recursive & iterative)
 - [x] From-scratch **Binary Min/Max Heap** with $O(N)$ `buildHeap` and **Heap Sort**
-- [ ] **Next Batch Focus**: Fast & Slow Pointer mechanics (**Floyd's Cycle Detection**, finding cycle start, and list middle) + From-scratch **Hash Table** with Separate Chaining
+- [x] Fast & Slow Pointer mechanics (**Floyd's Cycle Detection**, finding cycle start, and list middle)
+- [x] From-scratch **Hash Table** with Separate Chaining, positive hash distribution, and dynamic rehashing
 
 ---
 
-## 🚀 Stage 3: Next Stage — Advanced DSA & Interview Patterns (`09_Advanced_DSA`)
+## 🚀 Stage 3: Current Focus — Advanced DSA & Interview Patterns (`09_Advanced_DSA`)
 
-Once foundations are completed, the repository will advance into dedicated pattern-based problem modules:
+Organized systematically by reusable problem-solving patterns:
 
-1. **Two Pointers & Sliding Window** (Opposite direction, same direction, fixed window, dynamic frequency window)
-2. **Binary Search Invariants** (Lower bound, upper bound, rotated search, binary search on answer)
-3. **Monotonic Stacks & Queues** (Next Greater Element, Daily Temperatures, Largest Rectangle in Histogram, Sliding Window Maximum)
-4. **Tree Patterns & Binary Trees** (Diameter, Path Sum, Lowest Common Ancestor, Tree Serialization)
-5. **Heap & Top-K Problems** (Kth largest, Merge K Sorted Lists, Median of Data Stream)
-6. **Recursion & Backtracking** (Subsets, Permutations, Combination Sum, Word Search, N-Queens)
-7. **Graph Algorithms** (Adjacency List, BFS, DFS, Cycle Detection, Topological Sort, Dijkstra, Disjoint Set Union)
-8. **Dynamic Programming** (1D DP, 2D Grid DP, 0/1 Knapsack, Longest Common Subsequence, Longest Increasing Subsequence)
+- [x] **01_Two_Pointers**: Opposite direction search (Two Sum II), 3Sum duplicate avoidance, greedy boundary choice (Container With Most Water).
+- [x] **02_Sliding_Window**: Fixed-size window (Max Sum Subarray Size K), variable window with last-seen ASCII index map (Longest Substring Without Repeating), dynamic shrinking window (Minimum Size Subarray Sum).
+- [ ] **03_Binary_Search_Invariants**: Lower bound, upper bound, rotated sorted array search, binary search on answer (e.g., Koko Eating Bananas).
+- [ ] **04_Monotonic_Stack**: Next Greater Element, Daily Temperatures, Largest Rectangle in Histogram.
+- [ ] **05_Binary_Trees_And_BST**: Tree Diameter, Lowest Common Ancestor (LCA), Binary Tree Maximum Path Sum, BST deletion.
+- [ ] **06_Heaps_And_TopK**: Top-K Frequent Elements, Kth Largest in Array, Merge K Sorted Lists, Find Median from Data Stream.
+- [ ] **07_Backtracking**: Subsets, Permutations, Combination Sum, Word Search, N-Queens.
+- [ ] **08_Graphs**: Graph representations (Adjacency List/Matrix), BFS, DFS, Cycle Detection, Topological Sort (Kahn's / DFS), Dijkstra, Disjoint Set Union (DSU).
+- [ ] **09_Dynamic_Programming**: 1D DP (Climbing Stairs, House Robber), 2D Grid DP (Unique Paths), 0/1 Knapsack, Longest Common Subsequence (LCS), Longest Increasing Subsequence (LIS).
 
 ---
 

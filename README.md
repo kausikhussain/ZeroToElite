@@ -20,6 +20,7 @@ graph TD
     E --> F[06_Java_8_Features]
     F --> H[08_DSA_Implementations]
     H --> G[07_Competitive_Programming]
+    G --> I[09_Advanced_DSA]
 ```
 
 ### 📁 Directory Breakdown
@@ -78,6 +79,8 @@ graph TD
 * [MinStack.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/MinStack.java): Constant time O(1) getMin stack using dual parallel stack and embedded linked node designs.
 * [BinaryTreeTraversals.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BinaryTreeTraversals.java): BFS Level-Order (Queue), DFS Pre/In/Post-Order (both Recursive & Iterative Stack), and tree height.
 * [BinaryHeap.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BinaryHeap.java): Complete binary tree array representation, MinHeap, O(N) buildHeap, and in-place HeapSort.
+* [LinkedListAlgorithms.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/LinkedListAlgorithms.java): Floyd's Tortoise and Hare (cycle detection & start), finding middle, merging two sorted lists, and removing N-th node from end.
+* [HashTable.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/HashTable.java): Generic from-scratch Hash Table using Separate Chaining, 0.75 load factor, and automatic dynamic rehashing.
 * [SearchingAndSorting.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/SearchingAndSorting.java): Implements Linear Search, Binary Search, Bubble Sort, and Selection Sort.
 * [SinglyLinkedList.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/SinglyLinkedList.java): Covers singly linked list nodes, pointer traversal, insertions, and deletions.
 * [DoublyLinkedList.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/DoublyLinkedList.java): Covers doubly linked list nodes, pointer traversal in both directions, and insertions.
@@ -89,6 +92,21 @@ graph TD
 * [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BasicAlgorithms.java): Implements Armstrong check, palindrome check, reversing digits, duplicate elements detection, and character occurrences.
 * 📖 **Topic Documentation**: [08_DSA_Implementations/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/README.md)
 * 🎒 **Practice Exercises**: [Exercises.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/Exercises.md) | [Practice Template](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/DSAPractice.java) | [Solutions](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/solutions/DSASolutions.java)
+
+#### 📂 [09_Advanced_DSA](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/) *(Active)*
+*Focus: Reusable Algorithmic Design Patterns & Interview Problem Solving*
+
+##### 📁 [01_Two_Pointers](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/01_Two_Pointers/)
+* [TwoSumIISorted.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/01_Two_Pointers/TwoSumIISorted.java): Opposite-direction two pointers on sorted array in $O(N)$ time and $O(1)$ space.
+* [ThreeSum.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/01_Two_Pointers/ThreeSum.java): Sorting + two pointers with zero-allocation duplicate triplet avoidance in $O(N^2)$ time.
+* [ContainerWithMostWater.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/01_Two_Pointers/ContainerWithMostWater.java): Greedy outermost pointers moving the shorter boundary in $O(N)$ time.
+* 📖 **Topic Guide**: [01_Two_Pointers/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/01_Two_Pointers/README.md)
+
+##### 📁 [02_Sliding_Window](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/)
+* [MaxSumSubarraySizeK.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/MaxSumSubarraySizeK.java): Fixed-size window of size $k$ avoiding recomputation in $O(N)$ time.
+* [LongestSubstringWithoutRepeating.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/LongestSubstringWithoutRepeating.java): Dynamic window with ASCII last-seen index map jumping left boundary in $O(N)$ time.
+* [MinimumSizeSubarraySum.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/MinimumSizeSubarraySum.java): Dynamic contracting window on positive integers in amortized $O(N)$ time.
+* 📖 **Topic Guide**: [02_Sliding_Window/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/02_Sliding_Window/README.md)
 
 ---
 

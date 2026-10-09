@@ -47,6 +47,8 @@ This module contains **from-scratch implementations** of canonical computer scie
 | [ValidParentheses.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/ValidParentheses.java) | Stack Application | Bracket validation, longest valid substring | $O(N)$ | $O(N)$ |
 | [MatrixOperations.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/MatrixOperations.java) | 2D Arrays | Matrix addition & $O(N^3)$ multiplication | $O(R \cdot C)$ / $O(N^3)$ | $O(R \cdot C)$ |
 | [BasicAlgorithms.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/BasicAlgorithms.java) | Mathematical & Hashing | Armstrong, palindrome, character counting | $O(N)$ | $O(N)$ |
+| [LinkedListAlgorithms.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/LinkedListAlgorithms.java) | Pointer Patterns | Floyd's Cycle, Middle, Merge, Remove N-th | $O(N)$ | $O(1)$ |
+| [HashTable.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/08_DSA_Implementations/HashTable.java) | Custom Hash Table | Separate Chaining, Load Factor 0.75, Dynamic Rehash | $O(1)$ avg | $O(N + M)$ |
 
 ---
 

@@ -15,8 +15,8 @@
 | **05** | **Collections Framework** | `COMPLETED` | 3 | 2 | 1 | Lists, Sets, Maps, Queues, PriorityQueue, Complexity trade-offs |
 | **06** | **Java 8+ Modern Features** | `COMPLETED` | 3 | 2 | 1 | Lambdas, Functional Interfaces, Streams API, Collectors |
 | **07** | **Competitive Programming** | `IN PROGRESS` | 3 | 4 | 2 | TwoSum, Kadane's, Trapping Rain Water, 3Sum, Container With Most Water |
-| **08** | **DSA Implementations (Foundations)** | `IN PROGRESS` | 8 | 8 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Traversals |
-| **09** | **Advanced DSA & Algorithmic Patterns** | `NOT STARTED` | 0 | 0 | 0 | Two Pointers, Sliding Window, Monotonic Stack, Graphs, DP, Trie |
+| **08** | **DSA Implementations (Foundations)** | `COMPLETED` | 8 | 12 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Hash Table, Fast-Slow |
+| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 5 | 0 | Two Pointers (Opposite direction, 3Sum, Container), Sliding Window (Fixed, Variable, Min Size) |
 
 ---
 
@@ -80,9 +80,20 @@
 - [x] MinStack ($O(1)$ constant time minimum retrieval) (`MinStack.java`)
 - [x] Complete Binary Tree Traversals (BFS / Level-Order, Pre/In/Post Order Rec + Iter) (`BinaryTreeTraversals.java`)
 - [x] Binary Min/Max Heap & $O(N)$ Build-Heap & Heap Sort (`BinaryHeap.java`)
-- [ ] *Pending*: Fast & Slow Pointers (Floyd's Cycle Detection)
-- [ ] *Pending*: Hash Table with Separate Chaining
+- [x] Fast & Slow Pointers: Middle, Floyd's Cycle Detection, Cycle Start, Merge Lists, Remove N-th (`LinkedListAlgorithms.java`)
+- [x] Custom Generic Hash Table with Separate Chaining & Rehashing (`HashTable.java`)
+
+### 09_Advanced_DSA
+#### 01_Two_Pointers
+- [x] Two Sum II - Input Array Is Sorted ($O(N)$ time, $O(1)$ space) (`TwoSumIISorted.java`)
+- [x] 3Sum with Duplicate Avoidance ($O(N^2)$ time, $O(1)$ space) (`ThreeSum.java`)
+- [x] Container With Most Water ($O(N)$ time, $O(1)$ space) (`ContainerWithMostWater.java`)
+
+#### 02_Sliding_Window
+- [x] Maximum Sum Subarray of Size K - Fixed Window ($O(N)$ time, $O(1)$ space) (`MaxSumSubarraySizeK.java`)
+- [x] Longest Substring Without Repeating Characters ($O(N)$ time, $O(1)$ space) (`LongestSubstringWithoutRepeating.java`)
+- [x] Minimum Size Subarray Sum ($O(N)$ time, $O(1)$ space) (`MinimumSizeSubarraySum.java`)
 
 ---
 
-*Last Updated: 2026-10-07 | Maintained by ZeroToElite Mentorship*
+*Last Updated: 2026-10-09 | Maintained by ZeroToElite Mentorship*

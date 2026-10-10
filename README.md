@@ -120,6 +120,18 @@ graph TD
 * [LargestRectangleInHistogram.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/LargestRectangleInHistogram.java): Monotonic increasing stack calculating bottleneck bar areas in $O(N)$ time.
 * 📖 **Topic Guide**: [04_Monotonic_Stack/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/04_Monotonic_Stack/README.md)
 
+##### 📁 [05_Binary_Trees_And_BST](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/)
+* [DiameterOfBinaryTree.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/DiameterOfBinaryTree.java): Bottom-up DFS height aggregation finding longest path in $O(N)$ time.
+* [LowestCommonAncestor.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/LowestCommonAncestor.java): Post-order branch intersection identifying lowest common ancestor in $O(N)$ time.
+* [BinaryTreeMaxPathSum.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/BinaryTreeMaxPathSum.java): Post-order branch gain with negative pruning and turning point optimization in $O(N)$ time.
+* 📖 **Topic Guide**: [05_Binary_Trees_And_BST/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/README.md)
+
+##### 📁 [06_Heaps_And_TopK](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/)
+* [KthLargestElement.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/KthLargestElement.java): Min-Heap size-k invariant ($O(N \log K)$) and in-place QuickSelect ($O(N)$).
+* [TopKFrequentElements.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/TopKFrequentElements.java): Frequency min-heap and linear-time Bucket Sort in $O(N)$ time.
+* [FindMedianFromDataStream.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/FindMedianFromDataStream.java): Continuous stream median via balanced Two-Heaps pattern ($O(\log N)$ add, $O(1)$ query).
+* 📖 **Topic Guide**: [06_Heaps_And_TopK/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/README.md)
+
 ---
 
 ## 🛠️ How to Compile and Run

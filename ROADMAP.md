@@ -86,8 +86,8 @@ Organized systematically by reusable problem-solving patterns:
 - [x] **02_Sliding_Window**: Fixed-size window (Max Sum Subarray Size K), variable window with last-seen ASCII index map (Longest Substring Without Repeating), dynamic shrinking window (Minimum Size Subarray Sum).
 - [x] **03_Binary_Search_Invariants**: Lower bound, upper bound, rotated sorted array search, binary search on answer (Koko Eating Bananas).
 - [x] **04_Monotonic_Stack**: Next Greater Element (circular simulation), Daily Temperatures, Largest Rectangle in Histogram.
-- [ ] **05_Binary_Trees_And_BST**: Tree Diameter, Lowest Common Ancestor (LCA), Binary Tree Maximum Path Sum, BST deletion.
-- [ ] **06_Heaps_And_TopK**: Top-K Frequent Elements, Kth Largest in Array, Merge K Sorted Lists, Find Median from Data Stream.
+- [x] **05_Binary_Trees_And_BST**: Tree Diameter, Lowest Common Ancestor (LCA), Binary Tree Maximum Path Sum.
+- [x] **06_Heaps_And_TopK**: Top-K Frequent Elements, Kth Largest in Array (Heap & QuickSelect), Find Median from Data Stream (Two Heaps).
 - [ ] **07_Backtracking**: Subsets, Permutations, Combination Sum, Word Search, N-Queens.
 - [ ] **08_Graphs**: Graph representations (Adjacency List/Matrix), BFS, DFS, Cycle Detection, Topological Sort (Kahn's / DFS), Dijkstra, Disjoint Set Union (DSU).
 - [ ] **09_Dynamic_Programming**: 1D DP (Climbing Stairs, House Robber), 2D Grid DP (Unique Paths), 0/1 Knapsack, Longest Common Subsequence (LCS), Longest Increasing Subsequence (LIS).

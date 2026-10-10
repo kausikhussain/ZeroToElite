@@ -16,7 +16,7 @@
 | **06** | **Java 8+ Modern Features** | `COMPLETED` | 3 | 2 | 1 | Lambdas, Functional Interfaces, Streams API, Collectors |
 | **07** | **Competitive Programming** | `IN PROGRESS` | 3 | 4 | 2 | TwoSum, Kadane's, Trapping Rain Water, 3Sum, Container With Most Water |
 | **08** | **DSA Implementations (Foundations)** | `COMPLETED` | 8 | 12 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Hash Table, Fast-Slow |
-| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 10 | 1 | Two Pointers, Sliding Window, Binary Search Bounds, Rotated Search, Monotonic Stack, Histogram |
+| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 14 | 3 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps & Top-K |
 
 ---
 
@@ -104,6 +104,16 @@
 - [x] Daily Temperatures - Wait Days Index Tracking ($O(N)$) (`DailyTemperatures.java`)
 - [x] Largest Rectangle in Histogram ($O(N)$) (`LargestRectangleInHistogram.java`)
 
+#### 05_Binary_Trees_And_BST
+- [x] Diameter of Binary Tree - Bottom-up Height Aggregation ($O(N)$) (`DiameterOfBinaryTree.java`)
+- [x] Lowest Common Ancestor of a Binary Tree ($O(N)$) (`LowestCommonAncestor.java`)
+- [x] Binary Tree Maximum Path Sum ($O(N)$) (`BinaryTreeMaxPathSum.java`)
+
+#### 06_Heaps_And_TopK
+- [x] Kth Largest Element in an Array - Min-Heap & QuickSelect ($O(N \log K)$ / $O(N)$) (`KthLargestElement.java`)
+- [x] Top K Frequent Elements - Frequency Min-Heap & Bucket Sort ($O(N \log K)$ / $O(N)$) (`TopKFrequentElements.java`)
+- [x] Find Median from Data Stream - Two-Heaps Partitioning Pattern ($O(\log N)$ add, $O(1)$ query) (`FindMedianFromDataStream.java`)
+
 ---
 
-*Last Updated: 2026-10-10 | Maintained by ZeroToElite Mentorship*
+*Last Updated: 2026-10-11 | Maintained by ZeroToElite Mentorship*

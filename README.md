@@ -126,11 +126,16 @@ graph TD
 * [BinaryTreeMaxPathSum.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/BinaryTreeMaxPathSum.java): Post-order branch gain with negative pruning and turning point optimization in $O(N)$ time.
 * 📖 **Topic Guide**: [05_Binary_Trees_And_BST/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/05_Binary_Trees_And_BST/README.md)
 
-##### 📁 [06_Heaps_And_TopK](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/)
-* [KthLargestElement.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/KthLargestElement.java): Min-Heap size-k invariant ($O(N \log K)$) and in-place QuickSelect ($O(N)$).
-* [TopKFrequentElements.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/TopKFrequentElements.java): Frequency min-heap and linear-time Bucket Sort in $O(N)$ time.
-* [FindMedianFromDataStream.java](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/FindMedianFromDataStream.java): Continuous stream median via balanced Two-Heaps pattern ($O(\log N)$ add, $O(1)$ query).
-* 📖 **Topic Guide**: [06_Heaps_And_TopK/README.md](file:///c:/Users/kausi/Desktop/My%20Learning/java/09_Advanced_DSA/06_Heaps_And_TopK/README.md)
+##### 📁 [06_Heaps_And_TopK](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/06_Heaps_And_TopK/)
+* [KthLargestElement.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/06_Heaps_And_TopK/KthLargestElement.java): Min-Heap size-k invariant ($O(N \log K)$) and in-place QuickSelect ($O(N)$).
+* [TopKFrequentElements.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/06_Heaps_And_TopK/TopKFrequentElements.java): Frequency min-heap and linear-time Bucket Sort in $O(N)$ time.
+* [FindMedianFromDataStream.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/06_Heaps_And_TopK/FindMedianFromDataStream.java): Continuous stream median via balanced Two-Heaps pattern ($O(\log N)$ add, $O(1)$ query).
+* 📖 **Topic Guide**: [06_Heaps_And_TopK/README.md](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/06_Heaps_And_TopK/README.md)
+
+##### 📁 [07_Backtracking](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/)
+* [Subsets.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Subsets.java): Power Set generation using Include/Exclude decision tree, iterative cascading, and bit manipulation in $O(N \cdot 2^N)$ time.
+* [Permutations.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Permutations.java): All unique permutations using visited state tracking and in-place element swapping in $O(N \cdot N!)$ time.
+* 📖 **Topic Guide**: [07_Backtracking/README.md](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/README.md)
 
 ---
 

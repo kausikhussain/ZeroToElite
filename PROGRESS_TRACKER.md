@@ -16,7 +16,7 @@
 | **06** | **Java 8+ Modern Features** | `COMPLETED` | 3 | 2 | 1 | Lambdas, Functional Interfaces, Streams API, Collectors |
 | **07** | **Competitive Programming** | `IN PROGRESS` | 3 | 4 | 2 | TwoSum, Kadane's, Trapping Rain Water, 3Sum, Container With Most Water |
 | **08** | **DSA Implementations (Foundations)** | `COMPLETED` | 8 | 12 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Hash Table, Fast-Slow |
-| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 14 | 3 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps & Top-K |
+| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 16 | 3 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps, Backtracking |
 
 ---
 
@@ -114,6 +114,10 @@
 - [x] Top K Frequent Elements - Frequency Min-Heap & Bucket Sort ($O(N \log K)$ / $O(N)$) (`TopKFrequentElements.java`)
 - [x] Find Median from Data Stream - Two-Heaps Partitioning Pattern ($O(\log N)$ add, $O(1)$ query) (`FindMedianFromDataStream.java`)
 
+#### 07_Backtracking
+- [x] Subsets - Power Set via Include/Exclude Decision Tree & Cascading ($O(N \cdot 2^N)$) (`Subsets.java`)
+- [x] Permutations - State Exploration & In-Place Swap Backtracking ($O(N \cdot N!)$) (`Permutations.java`)
+
 ---
 
-*Last Updated: 2026-10-11 | Maintained by ZeroToElite Mentorship*
+*Last Updated: 2026-10-19 | Maintained by ZeroToElite Mentorship*

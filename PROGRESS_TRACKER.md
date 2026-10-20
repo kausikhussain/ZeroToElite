@@ -16,7 +16,7 @@
 | **06** | **Java 8+ Modern Features** | `COMPLETED` | 3 | 2 | 1 | Lambdas, Functional Interfaces, Streams API, Collectors |
 | **07** | **Competitive Programming** | `IN PROGRESS` | 3 | 4 | 2 | TwoSum, Kadane's, Trapping Rain Water, 3Sum, Container With Most Water |
 | **08** | **DSA Implementations (Foundations)** | `COMPLETED` | 8 | 12 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Hash Table, Fast-Slow |
-| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 16 | 3 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps, Backtracking |
+| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 18 | 3 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps, Backtracking |
 
 ---
 
@@ -117,7 +117,9 @@
 #### 07_Backtracking
 - [x] Subsets - Power Set via Include/Exclude Decision Tree & Cascading ($O(N \cdot 2^N)$) (`Subsets.java`)
 - [x] Permutations - State Exploration & In-Place Swap Backtracking ($O(N \cdot N!)$) (`Permutations.java`)
+- [x] Combination Sum - Unbounded Candidate Selection & Target Pruning ($O(N^{T/M})$) (`CombinationSum.java`)
+- [x] Word Search - 2D Grid DFS & In-Place Visited Masking ($O(M \cdot N \cdot 3^L)$) (`WordSearch.java`)
 
 ---
 
-*Last Updated: 2026-10-19 | Maintained by ZeroToElite Mentorship*
+*Last Updated: 2026-10-20 | Maintained by ZeroToElite Mentorship*

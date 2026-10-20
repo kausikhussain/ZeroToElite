@@ -135,6 +135,8 @@ graph TD
 ##### 📁 [07_Backtracking](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/)
 * [Subsets.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Subsets.java): Power Set generation using Include/Exclude decision tree, iterative cascading, and bit manipulation in $O(N \cdot 2^N)$ time.
 * [Permutations.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Permutations.java): All unique permutations using visited state tracking and in-place element swapping in $O(N \cdot N!)$ time.
+* [CombinationSum.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/CombinationSum.java): Unbounded candidate selection with sorted array early pruning in $O(N^{T/M})$ time.
+* [WordSearch.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/WordSearch.java): 2D grid DFS word discovery with in-place cell masking and state restoration in $O(M \cdot N \cdot 3^L)$ time.
 * 📖 **Topic Guide**: [07_Backtracking/README.md](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/README.md)
 
 ---

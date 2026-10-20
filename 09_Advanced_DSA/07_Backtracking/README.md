@@ -46,15 +46,31 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 |---|---|:---:|---|:---:|:---:|
 | [Subsets.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Subsets.java) | Subsets (LeetCode 78) | **Medium** | Include / Exclude Decision Tree & Cascading | $O(N \cdot 2^N)$ | $O(N)$ |
 | [Permutations.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Permutations.java) | Permutations (LeetCode 46) | **Medium** | Visited State Array & In-Place Swap | $O(N \cdot N!)$ | $O(N)$ |
+| [CombinationSum.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/CombinationSum.java) | Combination Sum (LeetCode 39) | **Medium** | Unbounded Candidate Selection & Target Pruning | $O(N^{T/M})$ | $O(T/M)$ |
+| [WordSearch.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/WordSearch.java) | Word Search (LeetCode 79) | **Medium** | 2D Grid DFS & In-Place Visited Masking | $O(M \cdot N \cdot 3^L)$ | $O(L)$ |
 
 ---
 
 ## ⚡ Combinatorial Complexity Comparison
 
-| Problem | Number of Solutions | Branching Factor | Recurrence | Complexity |
+| Problem | Number of Solutions | Branching Factor | Recurrence / Nature | Complexity |
 |---|:---:|:---:|:---:|:---:|
 | **Subsets (Power Set)** | $2^N$ | 2 choices per element | $T(N) = 2 \cdot T(N - 1)$ | $O(N \cdot 2^N)$ |
 | **Permutations** | $N!$ | $N, N - 1, \dots, 1$ | $T(N) = N \cdot T(N - 1)$ | $O(N \cdot N!)$ |
+| **Combination Sum** | Variable | Up to $N$ choices per step | Pruned by target $\le 0$ | $O(N^{T/M})$ |
+| **Word Search** | Boolean reachability | Up to 3 per step | 4-directional DFS with visited mask | $O(M \cdot N \cdot 3^L)$ |
 
-### In-Place Swapping Optimization in Permutations
-While a boolean `used` array requires $O(N)$ auxiliary space and list insertions, swapping `nums[start]` with `nums[i]` in-place avoids extra tracking memory and minimizes heap allocation overhead during competitive programming evaluations.
+---
+
+## 💡 Key Architectural Insights
+
+1. **In-Place Array Swapping (Permutations)**:
+   Avoids allocating an $O(N)$ boolean array and continuously copying sublists by swapping elements in-place:
+   `swap(arr, start, i)` $\rightarrow$ recurse with `start + 1` $\rightarrow$ `swap(arr, start, i)` to restore order.
+
+2. **Sorted Array Early Pruning (Combination Sum)**:
+   Sorting candidates upfront allows breaking out of loop immediately once `candidates[i] > target`, saving immense recursion overhead.
+
+3. **In-Place Cell Masking (Word Search)**:
+   Temporarily mutating `board[r][c] = '#'` and restoring it on return eliminates the need for an $O(M \times N)$ auxiliary visited matrix, keeping memory consumption strictly $O(L)$ on the recursion call stack.
+

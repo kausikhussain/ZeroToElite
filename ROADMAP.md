@@ -88,7 +88,7 @@ Organized systematically by reusable problem-solving patterns:
 - [x] **04_Monotonic_Stack**: Next Greater Element (circular simulation), Daily Temperatures, Largest Rectangle in Histogram.
 - [x] **05_Binary_Trees_And_BST**: Tree Diameter, Lowest Common Ancestor (LCA), Binary Tree Maximum Path Sum.
 - [x] **06_Heaps_And_TopK**: Top-K Frequent Elements, Kth Largest in Array (Heap & QuickSelect), Find Median from Data Stream (Two Heaps).
-- [x] **07_Backtracking**: Power Set generation via decision trees (Subsets), state exploration & in-place array swap backtracking (Permutations); *pending*: Combination Sum, Word Search, N-Queens.
+- [x] **07_Backtracking**: Power Set generation (Subsets), state exploration & in-place swap (Permutations), unbounded candidate selection & target pruning (Combination Sum), 2D grid DFS with visited mask (Word Search); *pending*: N-Queens, Sudoku Solver.
 - [ ] **08_Graphs**: Graph representations (Adjacency List/Matrix), BFS, DFS, Cycle Detection, Topological Sort (Kahn's / DFS), Dijkstra, Disjoint Set Union (DSU).
 - [ ] **09_Dynamic_Programming**: 1D DP (Climbing Stairs, House Robber), 2D Grid DP (Unique Paths), 0/1 Knapsack, Longest Common Subsequence (LCS), Longest Increasing Subsequence (LIS).
 

@@ -48,6 +48,7 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 | [Permutations.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/Permutations.java) | Permutations (LeetCode 46) | **Medium** | Visited State Array & In-Place Swap | $O(N \cdot N!)$ | $O(N)$ |
 | [CombinationSum.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/CombinationSum.java) | Combination Sum (LeetCode 39) | **Medium** | Unbounded Candidate Selection & Target Pruning | $O(N^{T/M})$ | $O(T/M)$ |
 | [WordSearch.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/WordSearch.java) | Word Search (LeetCode 79) | **Medium** | 2D Grid DFS & In-Place Visited Masking | $O(M \cdot N \cdot 3^L)$ | $O(L)$ |
+| [NQueens.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/NQueens.java) | N-Queens (LeetCode 51 / 52) | **Hard** | Row-by-Row DFS & $O(1)$ Diagonal/Column Hashing | $O(N!)$ | $O(N^2)$ |
 
 ---
 
@@ -59,6 +60,7 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 | **Permutations** | $N!$ | $N, N - 1, \dots, 1$ | $T(N) = N \cdot T(N - 1)$ | $O(N \cdot N!)$ |
 | **Combination Sum** | Variable | Up to $N$ choices per step | Pruned by target $\le 0$ | $O(N^{T/M})$ |
 | **Word Search** | Boolean reachability | Up to 3 per step | 4-directional DFS with visited mask | $O(M \cdot N \cdot 3^L)$ |
+| **N-Queens** | Distinct placements | At most $N - 2k$ per row | Row-wise placing with diagonal hashing | $O(N!)$ |
 
 ---
 
@@ -73,4 +75,8 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 
 3. **In-Place Cell Masking (Word Search)**:
    Temporarily mutating `board[r][c] = '#'` and restoring it on return eliminates the need for an $O(M \times N)$ auxiliary visited matrix, keeping memory consumption strictly $O(L)$ on the recursion call stack.
+
+4. **Diagonal Collision Hashing (N-Queens)**:
+   Rather than scanning diagonally across the board in $O(N)$, main diagonals share the constant difference $(r - c)$ and anti-diagonals share the constant sum $(r + c)$, allowing instantaneous $O(1)$ collision validation via index lookup.
+
 

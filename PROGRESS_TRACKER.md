@@ -16,7 +16,7 @@
 | **06** | **Java 8+ Modern Features** | `COMPLETED` | 3 | 2 | 1 | Lambdas, Functional Interfaces, Streams API, Collectors |
 | **07** | **Competitive Programming** | `IN PROGRESS` | 3 | 4 | 2 | TwoSum, Kadane's, Trapping Rain Water, 3Sum, Container With Most Water |
 | **08** | **DSA Implementations (Foundations)** | `COMPLETED` | 8 | 12 | 4 | Linked Lists, Queues, BST, Merge/Quick Sort, MinStack, Heap, Hash Table, Fast-Slow |
-| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 18 | 3 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps, Backtracking |
+| **09** | **Advanced DSA & Algorithmic Patterns** | `IN PROGRESS` | 1 | 18 | 5 | Two Pointers, Sliding Window, Binary Search, Monotonic Stack, Trees, Heaps, Backtracking |
 
 ---
 
@@ -119,7 +119,10 @@
 - [x] Permutations - State Exploration & In-Place Swap Backtracking ($O(N \cdot N!)$) (`Permutations.java`)
 - [x] Combination Sum - Unbounded Candidate Selection & Target Pruning ($O(N^{T/M})$) (`CombinationSum.java`)
 - [x] Word Search - 2D Grid DFS & In-Place Visited Masking ($O(M \cdot N \cdot 3^L)$) (`WordSearch.java`)
+- [x] N-Queens - Row-by-Row DFS & O(1) Diagonal/Column Collision Hashing ($O(N!)$) (`NQueens.java`)
+- [x] Sudoku Solver - In-Place Constraint Propagation & Short-Circuit Backtracking ($O(9^E)$) (`SudokuSolver.java`)
 
 ---
 
-*Last Updated: 2026-10-20 | Maintained by ZeroToElite Mentorship*
+*Last Updated: 2026-10-23 | Maintained by ZeroToElite Mentorship*
+

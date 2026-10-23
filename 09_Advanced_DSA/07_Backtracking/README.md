@@ -49,6 +49,7 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 | [CombinationSum.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/CombinationSum.java) | Combination Sum (LeetCode 39) | **Medium** | Unbounded Candidate Selection & Target Pruning | $O(N^{T/M})$ | $O(T/M)$ |
 | [WordSearch.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/WordSearch.java) | Word Search (LeetCode 79) | **Medium** | 2D Grid DFS & In-Place Visited Masking | $O(M \cdot N \cdot 3^L)$ | $O(L)$ |
 | [NQueens.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/NQueens.java) | N-Queens (LeetCode 51 / 52) | **Hard** | Row-by-Row DFS & $O(1)$ Diagonal/Column Hashing | $O(N!)$ | $O(N^2)$ |
+| [SudokuSolver.java](file:///c:/Users/kausi/Desktop/ZeroToElite/09_Advanced_DSA/07_Backtracking/SudokuSolver.java) | Sudoku Solver (LeetCode 37) | **Hard** | Constraint Propagation DFS & In-Place State Mutation | $O(9^E)$ | $O(E)$ |
 
 ---
 
@@ -61,6 +62,7 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 | **Combination Sum** | Variable | Up to $N$ choices per step | Pruned by target $\le 0$ | $O(N^{T/M})$ |
 | **Word Search** | Boolean reachability | Up to 3 per step | 4-directional DFS with visited mask | $O(M \cdot N \cdot 3^L)$ |
 | **N-Queens** | Distinct placements | At most $N - 2k$ per row | Row-wise placing with diagonal hashing | $O(N!)$ |
+| **Sudoku Solver** | 1 unique completed board | Up to 9 per empty cell | Row/Col/Box constraint-pruned search | $O(9^E)$ ($E \le 81$) |
 
 ---
 
@@ -78,5 +80,9 @@ Failure to restore state correctly corrupts sibling branches and parent recursio
 
 4. **Diagonal Collision Hashing (N-Queens)**:
    Rather than scanning diagonally across the board in $O(N)$, main diagonals share the constant difference $(r - c)$ and anti-diagonals share the constant sum $(r + c)$, allowing instantaneous $O(1)$ collision validation via index lookup.
+
+5. **Boolean Short-Circuiting & Constraint Propagation (Sudoku Solver)**:
+   Returning a boolean flag up the recursion call stack (`if (solve(board)) return true;`) terminates the combinatorial search the exact microsecond the complete valid puzzle is formed, avoiding redundant traversal of sibling branches.
+
 
 
